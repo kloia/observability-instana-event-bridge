@@ -1,0 +1,17 @@
+{
+  "issue": {
+    "id": "G9KRvijARFw6vffuygCvl_Fyg",
+    "type": "change",
+    "start": 1743798954000,
+    "text": "Change detected",
+    "description": "The value has changed from X to Y.",
+    "link": "https://X/#/events;eventId=G9KRvijARFw6vffuygCvl_Fyg",
+    "end": 1743798954000,
+    "zone": "prod",
+    "fqdn": "something.com",
+    "entity": "Kubernetes Pod",
+    "entityLabel": "Test",
+    "tags": "docs",
+    "container": "b-container"
+  }
+}

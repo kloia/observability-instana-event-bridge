@@ -1,0 +1,47 @@
+
+{
+  "issue": {
+    "id": "evt-9f2b7a12-4451-41d2-91d0-abc123456789",
+    "type": "issue",
+    "state": "OPEN",
+    "start": 1749498047273,
+    "end": 1749498347273,
+    "severity": 5,
+    "text": "High CPU Usage Detected",
+    "description": "CPU usage exceeded 95% for more than 5 minutes on the monitored host.",
+    "suggestion": "Investigate running processes and scale resources if necessary.",
+    "link": "https://instana.example.com/#/events;eventId=evt-9f2b7a12",
+    "entityType": "Host",
+    "customZone": "production-eu",
+    "availabilityZone": "eu-central-1a",
+    "zone": "prod",
+    "fqdn": "api-prod-01.company.local",
+    "entity": "Host",
+    "entityLabel": "api-prod-01",
+    "tags": "production, linux, payments",
+    "container": "payment-api-container",
+    "service": "payment-api",
+    "containerNames": [
+      "payment-api-7c8d9f6b6f-abc12",
+      "sidecar-log-agent"
+    ],
+    "metricNames": [
+      "cpu.used",
+      "system.load.1"
+    ],
+    "customPayloads": {
+      "custom:team": [
+        "platform-team"
+      ],
+      "custom:environment": [
+        "production"
+      ],
+      "custom:runbook": [
+        "https://wiki.company.local/runbooks/high-cpu"
+      ],
+      "custom:alertGroup": [
+        "infrastructure"
+      ]
+    }
+  }
+}

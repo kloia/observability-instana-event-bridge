@@ -1,0 +1,24 @@
+[Unit]
+Description=Instana Event Bridge
+After=network.target
+
+[Service]
+Type=simple
+
+WorkingDirectory=/opt/instana-event-bridge
+
+ExecStart=/opt/instana-event-bridge/instana-event-bridge
+
+Restart=always
+RestartSec=5
+
+User=root
+Group=root
+
+StandardOutput=journal
+StandardError=journal
+
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

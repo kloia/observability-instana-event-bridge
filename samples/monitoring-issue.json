@@ -1,0 +1,19 @@
+{
+  "issue": {
+    "id": "ah7cCh99TjGqnZJ4UL-uZHA",
+    "type": "monitoringIssue",
+    "state": "OPEN",
+    "start": 1743798151988,
+    "severity": 5,
+    "text": "Monitoring issue: nodejs_collector_not_installed",
+    "suggestion": "Our Agent observed a problem with monitoring the linked process.",
+    "link": "https://XX/#/events;eventId=ah7cCh99TjGqnZJ4UL-uZHA",
+    "zone": "ava",
+    "fqdn": "cool.fyre.ibm.com",
+    "entity": "Process",
+    "entityLabel": "node (7532267)",
+    "tags": "proc",
+    "container": "c-container"
+  }
+}
+

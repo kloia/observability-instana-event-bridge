@@ -1,0 +1,21 @@
+{
+  "server": {
+    "port": "8080",
+    "hostname": "instana-event-bridge"
+  },
+  "limits": {
+    "maxFieldLength": 2000
+  },
+  "outputs": {
+    "syslog": {
+      "enabled": true,
+      "protocol": "udp",
+      "host": "127.0.0.1",
+      "port": 514
+    },
+    "file": {
+      "enabled": true,
+      "path": "./events/instana-events.syslog"
+    }
+  }
+}
