@@ -146,11 +146,9 @@ docker build -t instana-event-bridge .
 ## Run
 
 ```bash
-touch instana-events.syslog
-
 docker run -d \
 -p 8080:8080 \
--v ./events/instana-events.syslog:/app/events/instana-events.syslog \
+-v ./events/:/app/events/ \
 --name instana-event-bridge \
 instana-event-bridge
 ```
