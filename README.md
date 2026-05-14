@@ -5,7 +5,7 @@ Instana Event Bridge is a lightweight event normalization and forwarding service
 The bridge receives Instana webhook payloads, normalizes the event structure, converts them into syslog-compatible event messages, and forwards them to configurable outputs such as:
 
 - Syslog (UDP/TCP)
-- Local file output
+- Local file output 
 
 The project is designed for integrations with systems such as:
 
