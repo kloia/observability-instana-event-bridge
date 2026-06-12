@@ -10,9 +10,11 @@ systemd/instana-event-bridge.service
 
 ```bash
 sudo mkdir -p /opt/instana-event-bridge
+mkdir -p /opt/instana-event-bridge/events
 
 sudo cp instana-event-bridge /opt/instana-event-bridge/
 sudo cp config.json /opt/instana-event-bridge/
+
 
 sudo cp systemd/instana-event-bridge.service /etc/systemd/system/
 
