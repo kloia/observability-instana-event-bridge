@@ -221,8 +221,3 @@ These samples can be used for:
 - Syslog-compatible formatting is preserved
 - Docker timezone support is enabled via `tzdata`
 
----
-
-# License
-
-MIT
